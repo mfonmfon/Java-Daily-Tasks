@@ -1,14 +1,15 @@
 const prompt = require("prompt-sync")();
 
-function showCurrentTime(){
-	currentTime = prompt("Enter the time zone offset to GMT");
-	let time = new Date();
-	resultForCurrentTime = currentTime / 60
+function findingRunWayLength(){
 
+	let length = 0;
+	let speed = prompt("Enter the speed");
+	let acceleration = prompt("Enter the acceleration");
+	
+	totalSpeed = speed * speed;
+	length = (totalSpeed  * acceleration);
 
-
-	console.log(time);
-
+	console.log(length);
 
 }
-console.log(showCurrentTime());
+console.log(findingRunWayLength());
