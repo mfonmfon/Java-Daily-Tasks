@@ -7,7 +7,7 @@ public class Chapter2TaskSix {
     seperateDigits();
   }
 
-  public static int seperateDigits() {
+  public static void seperateDigits() {
     Scanner scan = new Scanner(System.in);
     System.out.println("Enter a number ");
     int digit = scan.nextInt();
