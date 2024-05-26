@@ -35,10 +35,15 @@ public class Chapter4TaskFour {
 
       int newBalance = beginningBalance + charges + creditLimit;
 
+      for (int index = 0; index < customerBalance.size(); index++) {
+        System.out.println("your new balance is  " + customerBalance.get(index + newBalance));
+
+      }
+
       if (newBalance < 0.0) {
         System.out.println("Credit limit exceeded");
       } else {
-        System.out.println("your new balance is  " + newBalance);
+
       }
     }
 
