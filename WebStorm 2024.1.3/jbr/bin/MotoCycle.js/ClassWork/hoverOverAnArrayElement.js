@@ -32,3 +32,10 @@ function evenNumber(numbers) {
     anotherEvenNumber()
 }
 evenNumber()
+    let arr = [1,4,5,7,4,2]
+    let newArrays = ['mfon', 'paul', 'david']
+   //let (arr,  newArrays)
+console.log(arr)
+
+
+
